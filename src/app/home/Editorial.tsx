@@ -1,45 +1,47 @@
 'use client';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css/navigation';
+import Marquee from 'react-fast-marquee';
+import Image from 'next/image';
 import React from 'react';
-import 'swiper/css';
 
 export default function Editorial() {
 	return (
-		<section className='bg-[var(--light-brown)] relative py-20 overflow-hidden'>
-			<div className='max-width'>
-				<div className='flex items-center justify-center flex-col relative'>
-					<h1 className='font-[adevia] text-[50px] leading-[100%] tracking-[0%] uppercase'>
+		<section className='bg-[var(--light-brown)] py-10 lg:py-20'>
+			<div className='max-width flex items-center lg:items-end justify-between'>
+				<Image
+					src={'/images/arrow-left.png'}
+					alt='left'
+					width={46}
+					height={46}
+					className='w-[30px] lg:w-[46px]'
+				/>
+				<div className='flex items-center justify-center flex-col'>
+					<h1 className='font-[adevia] text-xl text-center lg:text-[50px] leading-[100%] tracking-[0%] uppercase'>
 						Hi, My name is SuhaiB HAIMUR
 					</h1>
-					<p className='font-[275] text-xl leading-[100%] tracking-[0%] uppercase mt-5'>
+					<p className='font-[275] font-[poppins-light] text-xl leading-[100%] tracking-[0%] uppercase mt-5'>
 						editorial
 					</p>
 				</div>
-				<div className='relative'>
-					<Swiper
-						modules={[Navigation]}
-						spaceBetween={50}
-						slidesPerView={3}
-						navigation
-						className='!overflow-visible mt-20'
-					>
-						<SwiperSlide>Slide 1</SwiperSlide>
-						<SwiperSlide>Slide 2</SwiperSlide>
-						<SwiperSlide>Slide 3</SwiperSlide>
-						<SwiperSlide>Slide 4</SwiperSlide>
-						<SwiperSlide>Slide 1</SwiperSlide>
-						<SwiperSlide>Slide 2</SwiperSlide>
-						<SwiperSlide>Slide 3</SwiperSlide>
-						<SwiperSlide>Slide 4</SwiperSlide>
-						<SwiperSlide>Slide 1</SwiperSlide>
-						<SwiperSlide>Slide 2</SwiperSlide>
-						<SwiperSlide>Slide 3</SwiperSlide>
-						<SwiperSlide>Slide 4</SwiperSlide>
-					</Swiper>
-				</div>
+				<Image
+					src={'/images/arrow-left.png'}
+					alt='right'
+					width={46}
+					height={46}
+					className='rotate-180 w-[30px] lg:w-[46px]'
+				/>
 			</div>
+			<Marquee className='mt-20' speed={60}>
+				{Array.from({ length: 10 }, (_, index) => (
+					<Image
+						className='mx-5'
+						key={index}
+						src={'/images/image-1.png'}
+						alt='image'
+						width={350}
+						height={411}
+					/>
+				))}
+			</Marquee>
 		</section>
 	);
 }
