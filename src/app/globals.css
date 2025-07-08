@@ -13,6 +13,7 @@
 	--light-brown: #c3bdb1;
 	--black: #191919;
 	--white: #ffffff;
+	--coal: #323232;
 
 	/* Fonts */
 	--adevia: 'Adevia', sans-serif;
@@ -33,4 +34,34 @@ html {
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+	top: -100px !important;
+	z-index: 99999 !important;
+}
+
+.swiper-button-prev {
+	background-image: url('/images/arrow-left.png') !important;
+	background-repeat: no-repeat;
+	width: 50px !important;
+	background-size: contain;
+}
+
+.swiper-button-next {
+	background-image: url('/images/arrow-right.png') !important;
+	background-repeat: no-repeat;
+	height: 200px !important;
+	background-repeat: no-repeat;
+	width: 50px !important;
+	background-size: contain;
+}
+
+.swiper-button-prev::after {
+	content: '' !important;
+}
+
+.swiper-button-next::after {
+	content: '' !important;
 }
