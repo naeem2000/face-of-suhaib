@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<section>
 			<div className='hidden md:block bg-[image:var(--about-bg)] bg-cover'>
-				<div className='max-width h-screen flex items-end justify-start'>
+				<div className='max-width !p-0 h-screen flex items-end justify-start'>
 					<div className='bg-[var(--light-brown)] px-20 py-20'>
 						<h2 className='font-[adevia] text-3xl leading-[100%] tracking-[0%] uppercase'>
 							Hi, I’m Suhaib Humair
