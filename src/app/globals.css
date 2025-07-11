@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap');
 @import 'tailwindcss';
 
 @font-face {
@@ -8,15 +7,44 @@
 	font-style: normal;
 }
 
+@font-face {
+	font-family: 'Poppins';
+	src: url('/fonts/poppins.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins-medium';
+	src: url('/fonts/poppins-medium.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Poppins-light';
+	src: url('/fonts/poppins-light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
 :root {
 	/* Colors */
 	--light-brown: #c3bdb1;
 	--black: #191919;
 	--white: #ffffff;
+	--coal: #323232;
+	--border: #707070;
 
 	/* Fonts */
 	--adevia: 'Adevia', sans-serif;
 	--poppins: 'Poppins', sans-serif;
+	--poppins-light: 'Poppins-light', sans-serif;
+	--poppins-medium: 'Poppins-medium', sans-serif;
+
+	/* Backgrounds */
+	--about-bg: url('/images/about-bg.png');
+	--about-bg-mobile: url('/images/about-bg-mobile.png');
 }
 
 * {
