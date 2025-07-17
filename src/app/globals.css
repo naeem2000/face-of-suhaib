@@ -35,6 +35,7 @@
 	--white: #ffffff;
 	--coal: #323232;
 	--border: #707070;
+	--dark-brown: #313131;
 
 	/* Fonts */
 	--adevia: 'Adevia', sans-serif;
@@ -61,4 +62,8 @@ html {
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;
+}
+
+button:hover {
+	opacity: 0.6;
 }

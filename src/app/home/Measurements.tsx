@@ -94,7 +94,7 @@ export default function Measurements() {
 							alt='measurement'
 							width={338}
 							height={363}
-							className='w-1/2 xl:w-full h-auto xl:h-[330px]'
+							className='w-1/2 xl:w-full h-auto xl:h-[330px] object-cover'
 						/>
 
 						<Image
@@ -102,7 +102,7 @@ export default function Measurements() {
 							alt='measurement'
 							width={338}
 							height={363}
-							className='w-1/2 xl:w-full h-auto xl:h-[330px]'
+							className='w-1/2 xl:w-full h-auto xl:h-[330px] object-cover'
 						/>
 					</div>
 				</div>
