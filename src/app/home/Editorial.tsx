@@ -2,6 +2,7 @@
 import Marquee from 'react-fast-marquee';
 import Image from 'next/image';
 import React from 'react';
+import { marqueeImages } from '../../../public/data';
 
 export default function Editorial() {
 	return (
@@ -31,16 +32,18 @@ export default function Editorial() {
 				/>
 			</div>
 			<Marquee className='mt-20' speed={60}>
-				{Array.from({ length: 10 }, (_, index) => (
-					<Image
-						className='mx-5'
-						key={index}
-						src={'/images/image-1.png'}
-						alt='image'
-						width={350}
-						height={411}
-					/>
-				))}
+				{marqueeImages.map((item, index) => {
+					return (
+						<Image
+							className='mx-5 w-[350px] h-[411px] object-cover'
+							key={index}
+							src={item.image}
+							alt={item.alt}
+							width={350}
+							height={411}
+						/>
+					);
+				})}
 			</Marquee>
 		</section>
 	);

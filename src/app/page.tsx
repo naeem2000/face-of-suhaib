@@ -3,6 +3,7 @@ import Editorial from './home/Editorial';
 import Footer from './home/Footer';
 import About from './home/About';
 import Hero from './home/Hero';
+import Polaroids from './home/Polaroids';
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 			<Editorial />
 			<About />
 			<Measurements />
+			<Polaroids />
 			<Footer />
 		</main>
 	);
