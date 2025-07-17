@@ -23,7 +23,7 @@ export default function Polaroids() {
 								height={500}
 								src={item.image}
 								alt={item.alt}
-								className='w-full h-full object-cover'
+								className='w-full h-full object-cover hover:scale-125 transition-all duration-300'
 							/>
 						</div>
 					))}
@@ -37,7 +37,7 @@ export default function Polaroids() {
 								height={500}
 								src={item.image}
 								alt={item.alt}
-								className='w-full h-full object-cover'
+								className='w-full h-full object-cover hover:scale-125 transition-all duration-300'
 							/>
 						</div>
 					))}

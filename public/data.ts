@@ -60,7 +60,7 @@ export const measurementData = {
 	firstCol: [
 		{
 			label: 'Height',
-			value: '184',
+			value: '180',
 		},
 		{
 			label: 'Waist',
