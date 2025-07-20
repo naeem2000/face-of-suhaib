@@ -11,7 +11,12 @@ export default function Footer() {
 					The Face Behind Every Frame
 				</p>
 				<div className='flex gap-6'>
-					<Link href={''} target='_blank'>
+					<Link
+						href={
+							'https://www.instagram.com/p/DL7lPoXsODY/?igsh=cmNqbnBvemIyejhn'
+						}
+						target='_blank'
+					>
 						<Image
 							src={'/images/Instagram.svg'}
 							alt='Instagram'
@@ -19,7 +24,10 @@ export default function Footer() {
 							width={16}
 						/>
 					</Link>
-					<Link href={''} target='_blank'>
+					<Link
+						href={'https://www.facebook.com/Suhaib.haimur/'}
+						target='_blank'
+					>
 						<Image
 							src={'/images/Facebook.svg'}
 							alt='Facebook'

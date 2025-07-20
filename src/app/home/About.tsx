@@ -54,12 +54,16 @@ export default function About() {
 							Hi, I’m Suhaib Humair
 						</h2>
 						<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-10 max-w-[400px]'>
-							Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
-							mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien
-							fringilla, mattis ligula consectetur, ultrices mauris. Maecenas
-							vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum
-							auctor ornare leo, non suscipit magna interdum eu. Curabitur
-							pellentesque nibh nibh, at maximus ante.
+							Hi I’m Suhaib Humair — a bilingual model and actor dedicated to
+							embodying stories that resonate, both fluent in English and
+							Arabic. Working across brands has taught me the language of
+							detail, and only few truly understand. Whether it’s movement,
+							presence, or creativity infront of the lens, I know how to deliver
+							nuance with intention. Rooted in Jordan and educated in
+							Environmental Geography (BCom), I carry with me both structure and
+							soul — and I’m here to challenge what the world expects from Arab
+							men in fashion, film, and storytelling. I’m here to create work
+							that transcends borders.
 						</p>
 						<button
 							onClick={openModal}
