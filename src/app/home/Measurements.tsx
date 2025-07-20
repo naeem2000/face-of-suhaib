@@ -13,7 +13,7 @@ export default function Measurements() {
 							alt='measurement'
 							width={785}
 							height={772}
-							className='w-full xl:max-w-[785px]'
+							className='w-full xl:max-w-[785px] min-h-[728px]'
 						/>
 					</div>
 				</div>
