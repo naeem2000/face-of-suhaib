@@ -54,9 +54,8 @@ export default function About() {
 							Hi, I’m Suhaib Haimur
 						</h2>
 						<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-10 '>
-							Hi I’m Suhaib Haimur — a bilingual model and actor dedicated to
-							embodying stories that resonate, both fluent in English and
-							Arabic.
+							A bilingual model and actor dedicated to embodying stories that
+							resonate, both fluent in English and Arabic.
 							<br /> <br />
 							Working across brands has taught me the language of detail, and
 							only few truly understand. Whether it’s movement, presence, or
@@ -94,8 +93,8 @@ export default function About() {
 						Hi, I’m Suhaib Haimur
 					</h2>
 					<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-8'>
-						Hi I’m Suhaib Haimur — a bilingual model and actor dedicated to
-						embodying stories that resonate, both fluent in English and Arabic.
+						A bilingual model and actor dedicated to embodying stories that
+						resonate, both fluent in English and Arabic.
 						<br /> <br />
 						Working across brands has taught me the language of detail, and only
 						few truly understand. Whether it’s movement, presence, or creativity
