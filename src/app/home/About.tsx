@@ -49,21 +49,26 @@ export default function About() {
 
 			<div className='hidden md:block bg-[image:var(--about-bg)] bg-cover'>
 				<div className='max-width !p-0 h-screen flex items-end justify-start'>
-					<div className='bg-[var(--light-brown)] px-20 py-14'>
+					<div className='bg-[var(--light-brown)] p-12 w-[600px]'>
 						<h2 className='font-[adevia] text-3xl leading-[100%] tracking-[0%] uppercase'>
 							Hi, I’m Suhaib Humair
 						</h2>
-						<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-10 max-w-[400px]'>
+						<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-10 '>
 							Hi I’m Suhaib Humair — a bilingual model and actor dedicated to
 							embodying stories that resonate, both fluent in English and
-							Arabic. Working across brands has taught me the language of
-							detail, and only few truly understand. Whether it’s movement,
-							presence, or creativity infront of the lens, I know how to deliver
-							nuance with intention. Rooted in Jordan and educated in
-							Environmental Geography (BCom), I carry with me both structure and
-							soul — and I’m here to challenge what the world expects from Arab
-							men in fashion, film, and storytelling. I’m here to create work
-							that transcends borders.
+							Arabic.
+							<br /> <br />
+							Working across brands has taught me the language of detail, and
+							only few truly understand. Whether it’s movement, presence, or
+							creativity infront of the lens, I know how to deliver nuance with
+							intention.
+							<br /> <br />
+							Rooted in Jordan and educated in Environmental Geography (BCom), I
+							carry with me both structure and soul — and I’m here to challenge
+							what the world expects from Arab men in fashion, film, and
+							storytelling.
+							<br /> <br />
+							I’m here to create work that transcends borders.
 						</p>
 						<button
 							onClick={openModal}
