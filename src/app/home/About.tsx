@@ -51,10 +51,10 @@ export default function About() {
 				<div className='max-width !p-0 h-screen flex items-end justify-start'>
 					<div className='bg-[var(--light-brown)] p-12 w-[600px]'>
 						<h2 className='font-[adevia] text-3xl leading-[100%] tracking-[0%] uppercase'>
-							Hi, I’m Suhaib Humair
+							Hi, I’m Suhaib Haimur
 						</h2>
 						<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-10 '>
-							Hi I’m Suhaib Humair — a bilingual model and actor dedicated to
+							Hi I’m Suhaib Haimur — a bilingual model and actor dedicated to
 							embodying stories that resonate, both fluent in English and
 							Arabic.
 							<br /> <br />
@@ -91,7 +91,7 @@ export default function About() {
 				</div>
 				<div className='bg-[var(--light-brown)] px-5 py-12'>
 					<h2 className='font-[adevia] text-3xl leading-[100%] tracking-[0%] uppercase'>
-						Hi, I’m Suhaib Humair
+						Hi, I’m Suhaib Haimur
 					</h2>
 					<p className='font-[poppins-light] font-[275] text-base leading-[25px] tracking-[0%] uppercase mt-8'>
 						Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa
